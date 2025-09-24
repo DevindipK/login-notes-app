@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Notes</title>
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+  <div class="container">
+    <h2>Your Notes</h2>
+    <form id="noteForm">
+      <textarea id="noteContent" placeholder="Write a new note..." rows="4"></textarea>
+      <button type="submit" class="btn primary">Add Note</button>
+    </form>
+    <div id="feedback-message"></div>
+    <ul id="notesList" class="notes-list"></ul>
+    <button id="logoutBtn" class="btn primary">Logout</button>
+    
+  </div>
+
+  <script src="notes.js"></script>
+</body>
+</html>

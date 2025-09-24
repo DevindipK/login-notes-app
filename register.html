@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Register - Your Notes</title>
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+
+  <div class="container login-container">
+    <h1>Create an Account</h1>
+    <p>Please make a username and password</p>
+    <form id="registerForm" method="POST" action="/register">
+      <input type="text" name="username" placeholder="Username" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <button type="submit" class="btn">Register</button>
+      
+    </form>
+    <p>Already have an account? <a href="/">Login here</a></p>
+  </div>
+</body>
+</html>
